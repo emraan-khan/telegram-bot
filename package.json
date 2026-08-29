@@ -1,0 +1,21 @@
+{
+  "name": "telegram-bot",
+  "version": "1.0.0",
+  "description": "A complete step-by-step guide to creating, configuring, and running a Telegram bot using Node.js and modern Telegram Bot frameworks (**grammY** / **Telegraf**).",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "dev": "node --watch index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "grammy": "^1.46.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
